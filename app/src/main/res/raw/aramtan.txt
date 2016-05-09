@@ -1,0 +1,12 @@
+﻿A folyadékok és gázok _ állnak./részecskékből
+A _ alapján vezethetjük be, illetve értelmezhetjük a számunkra legfontosabb fizikai tulajdonságokat./részecske-szemlélet
+A részecskéknek _ és _ van, ebből következik, hogy _ és _ is./tömege/sebessége/mozgásmennyisége/mozgási energiája
+A _ szigorúan véve két részecske között értelmezhető, de a hatás nagyon sok részecske esetében is hasonló./párpotenciál
+A felső szaggatott vonal a _, az elektron felhők kölcsönhatásából adódó _ (erőt) mutatja./Pauli-féle/taszító hatást
+Az alsó, szintén szaggatott vonal pedig a _, dipólusok kölcsönhatásán alapuló _ (erőt) mutatja./Van der Waals-féle/vonzó hatást
+A _ kis távolságokon érvényesül, a _ az ettől sokkal nagyobb távolságokon jellemző./taszító hatás/vonzó hatás
+A folyékony folyadék részecskéi egymáshoz olyan közel helyezkednek el, hogy közöttük lényeges _ jut érvényre, amit _ is nevezünk./vonzó hatás/kohéziónak
+A gázok részecskéi között lévő távolság _, mint a folyadékok részecskéi közötti távolság. Emiatt a gázok részecskéi közötti _ is sokkal kisebb, általában elhanyagolhatóan kicsi./sokkal nagyobb/vonzóerő
+Az _ mennyiségek nagysága a vizsgált rendszer méretével arányosan változnak./extenzív
+Az _ mennyiségek nagysága nem függ a vizsgált rendszer méretétől./intenzív
+A _ az első index megmutatja, hogy a feszültség összetevő mely koordináta./feszültség-tenzor megadásában

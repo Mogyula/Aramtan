@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context="com.molnargy.aramtan.MainActivity">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="10"
+            android:layout_height="match_parent"
+            android:background="#FF4444"
+            android:onClick="badAnswer"/>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_weight="80"
+            android:orientation="vertical"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textColor="#303f9f"
+                android:textSize="30dp"
+                android:textStyle="bold"
+                android:text="Valami nem jó, kollega."
+                android:id="@+id/progressCounter"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingLeft="5px"
+                android:paddingRight="5px"
+                android:gravity="center"
+                android:textSize="20dp"
+                android:id="@+id/textField"
+                android:text="Hello Worldddddddddddddddddddddddddddddddddddddddd!"
+                android:onClick="showAnswer"/>
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="10"
+            android:layout_height="match_parent"
+            android:background="#99cc00"
+            android:onClick="goodAnswer"/>
+
+    </LinearLayout>
+
+</android.support.design.widget.CoordinatorLayout>

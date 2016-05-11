@@ -35,16 +35,13 @@
                 android:text="Valami nem jó, kollega."
                 android:id="@+id/progressCounter"/>
 
-            <TextView
+            <WebView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:paddingLeft="5px"
                 android:paddingRight="5px"
                 android:gravity="center"
-                android:textSize="20dp"
-                android:id="@+id/textField"
-                android:text="Hello Worldddddddddddddddddddddddddddddddddddddddd!"
-                android:onClick="showAnswer"/>
+                android:id="@+id/webView"/>
 
         </LinearLayout>
 

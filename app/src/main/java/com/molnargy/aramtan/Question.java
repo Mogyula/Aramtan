@@ -1,9 +1,5 @@
 package com.molnargy.aramtan;
 
-import android.text.Html;
-
-import java.util.ArrayList;
-
 /**
  * Created by Gyula on 2016. 05. 07..
  */
@@ -19,8 +15,9 @@ public class Question {
     Question(String question, String[] answers){
         this.question = question;
         for(int i=0; i<answers.length; i++){
-            this.question = this.question.replaceFirst("_", "<font color='#FFFFFF'>"+answers[i]+"</font>");
+            this.question = this.question.replaceFirst("_", "<nobr><font style=\"border-bottom: 1px solid black;\" color=\"#FFFFFF\">"+answers[i]+"</font></nobr>");
         }
+        this.question = "<div style=\"text-align: center; position: relative; top:50%; transform: translateY(-50%);\"><h2 style=\"line-height: 150%;\">" + this.question + "</h2></div>";
 
         this.answer = this.question.replaceAll("#FFFFFF", "#FF8C00");
 

@@ -4,24 +4,20 @@ import android.app.AlertDialog;
 import android.content.Context;
 import android.content.DialogInterface;
 import android.os.Bundle;
-import android.support.design.widget.FloatingActionButton;
-import android.support.design.widget.Snackbar;
 import android.support.v7.app.AppCompatActivity;
-import android.support.v7.widget.Toolbar;
 import android.text.Html;
 import android.util.Log;
+import android.view.MotionEvent;
 import android.view.View;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.webkit.WebView;
 import android.widget.TextView;
-import android.widget.Toast;
 
 import java.io.BufferedReader;
-import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
-import java.io.IOException;
 import java.io.InputStream;
 import java.io.InputStreamReader;
 import java.io.ObjectInputStream;
@@ -49,7 +45,7 @@ public class MainActivity extends AppCompatActivity {
     private int prevTenQuestion; //index inside the vector.
 
     private TextView onesTextView;
-    private TextView textField;
+    private WebView webView;
 
 
     @Override
@@ -77,7 +73,7 @@ public class MainActivity extends AppCompatActivity {
 
         //Store static UI elements
         this.onesTextView = (TextView)findViewById(R.id.progressCounter);
-        this.textField = (TextView)findViewById(R.id.textField);
+        this.webView = (WebView)findViewById(R.id.webView);
 
         //Loading the questions
         try{
@@ -109,6 +105,17 @@ public class MainActivity extends AppCompatActivity {
         //Set the counters
         this.setCounters();
 
+        //set listener on webView
+        final MainActivity that = this;
+        this.webView.setOnTouchListener(new View.OnTouchListener(){
+            @Override
+            public boolean onTouch(View v, MotionEvent event){
+                that.showAnswer(v);
+                return false;
+            }
+
+        });
+
     }
 
     private void displayQuestion(){
@@ -117,16 +124,14 @@ public class MainActivity extends AppCompatActivity {
                 this.tensProgress.size()
         );
 
-
-
-        this.textField.setText(
-                Html.fromHtml(
-                        this.questionContainer.get(
-                                this.tensProgress.get(
-                                        this.prevTenQuestion
-                                )
-                        ).getQuestion()
-                )
+        this.webView.loadData(
+                this.questionContainer.get(
+                        this.tensProgress.get(
+                                this.prevTenQuestion
+                        )
+                ).getQuestion(),
+                "text/html; charset=UTF-8",
+                null
         );
         this.questionMode = true;
     }
@@ -244,17 +249,21 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void showAnswer(View view){
+
+        String asd = this.questionContainer.get(
+                this.tensProgress.get(
+                        this.prevTenQuestion
+                )
+        ).getAnswer();
+
         if(this.questionMode) {
-            this.textField.setText(
-                    Html.fromHtml(
-                        this.questionContainer.get(
-                                this.tensProgress.get(
-                                    this.prevTenQuestion
-                                )
-                        ).getAnswer()
-                    )
+            this.webView.loadData(
+                asd,
+                "text/html; charset=UTF-8",
+                null
             );
         }
+        this.webView.reload(); //I have no idea.
         this.questionMode=false;
     }
 

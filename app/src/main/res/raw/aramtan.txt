@@ -1,12 +1,293 @@
-﻿A folyadékok és gázok _ állnak./részecskékből
-A _ alapján vezethetjük be, illetve értelmezhetjük a számunkra legfontosabb fizikai tulajdonságokat./részecske-szemlélet
-A részecskéknek _ és _ van, ebből következik, hogy _ és _ is./tömege/sebessége/mozgásmennyisége/mozgási energiája
-A _ szigorúan véve két részecske között értelmezhető, de a hatás nagyon sok részecske esetében is hasonló./párpotenciál
+﻿A folyadékok és gázok _ állnak./részecskékből 
+A _ alapján vezethetjük be, illetve értelmezhetjük a számunkra legfontosabb fizikai tulajdonságokat./ részecske-szemlélet
+A részecskéknek _és _ van, ebből következik, hogy _ és _ is./tömege/sebessége/mozgásmennyisége/mozgási energiája
+A _ szigorúan véve két részecske között értelmezhető, de a hatás nagyon sok részecske esetében is hasonló./párpotenciál 
 A felső szaggatott vonal a _, az elektron felhők kölcsönhatásából adódó _ (erőt) mutatja./Pauli-féle/taszító hatást
 Az alsó, szintén szaggatott vonal pedig a _, dipólusok kölcsönhatásán alapuló _ (erőt) mutatja./Van der Waals-féle/vonzó hatást
-A _ kis távolságokon érvényesül, a _ az ettől sokkal nagyobb távolságokon jellemző./taszító hatás/vonzó hatás
+A _ kis távolságokon érvényesül, a _ az ettől sokkal nagyobb távolságokon jellemző./taszító hatás/ vonzó hatás
 A folyékony folyadék részecskéi egymáshoz olyan közel helyezkednek el, hogy közöttük lényeges _ jut érvényre, amit _ is nevezünk./vonzó hatás/kohéziónak
 A gázok részecskéi között lévő távolság _, mint a folyadékok részecskéi közötti távolság. Emiatt a gázok részecskéi közötti _ is sokkal kisebb, általában elhanyagolhatóan kicsi./sokkal nagyobb/vonzóerő
 Az _ mennyiségek nagysága a vizsgált rendszer méretével arányosan változnak./extenzív
 Az _ mennyiségek nagysága nem függ a vizsgált rendszer méretétől./intenzív
-A _ az első index megmutatja, hogy a feszültség összetevő mely koordináta./feszültség-tenzor megadásában
+A _ megadásában az első index megmutatja, hogy a feszültség összetevő mely koordináta./feszültség-tenzor
+A feszültség-tenzor megadásában a második index megmutatja, hogy a feszültség összetevő mely koordináta _./tengelyre merőleges síkban fekszik
+A _ főátlójában a _ és adott esetben a _ található./feszültség-tenzor/statikus nyomás/turbulens nyomás-többlet
+A _ a közeg részecskéinek rendezetlen hőmozgásából ered./statikus nyomás
+A részecskék _ ütközésükkor megváltozik – e mozgásmennyiség-változás időegységre és felületegységre vonatkoztatott értékét nevezzük _./mozgásmennyisége/statikus nyomásnak
+A statikus nyomás legkisebb értéke nyilván a nulla, hiszen a nyomást az ütköző részecskék _, _ és _ határozza meg./sebessége/tömege/száma
+A turbulens nyomástöbblet hasonló a statikus nyomáshoz, mivel az is egy rendezetlen, _ mozgásforma eredménye./nulla várható értékű
+A turbulens mozgás _, mint a rendezetlen hőmozgás, ezért a turbulens mozgásból származó feszültségek általában nagyobbak./intenzívebb, esetleg sokkal intenzívebb
+A szilárd felületen a statikus nyomás a felületre _ keletkezik./merőlegesen
+A feszültség tenzor főátlón kívüli elemei a _./csúsztató feszültségek
+A csúsztató feszültség keletkezésének szükséges feltétele a _./sebességkülönbség
+A csúsztató feszültség keletkezésének fő oka – folyékony folyadék réteges áramlásának esetében, amikor a részecskék elég közel vannak egymáshoz – a részecskék között keletkező _./kohéziós erő
+A gáznemű közegek réteges és gomolygó áramlásában egyaránt, valamint a folyékony folyadék gomolygó áramlásában a csúsztató feszültség keletkezésének fő oka a _ létrejövő mozgásmennyiség csere./részecske cserével
+A részecske csere oka réteges áramlásban a _, gomolygó (turbulens) áramlásban ehhez adódik még a _ miatti részecske csere./hőmozgás/turbulens sebesség-ingadozások
+Folyékony folyadékok esetében, a hőmérséklet növekedésével, amikor a részecskék a hőmozgás intenzitásának növekedése miatt egymástól távolabb kerülnek, a csúsztató feszültség./csökken
+Gázok réteges (lamináris) áramlásának esetében, a hőmérséklet növekedésével _ a csúsztató feszültség./nő
+Gomolygó áramlásokban a csúsztató feszültség keletkezése a _ következménye./turbulens sebességingadozások
+A _ a részecskék rendezett mozgásából származó, időegységre illetve felületegységre jutó _ változás./dinamikus nyomás/mozgásmennyiség
+A dinamikus nyomás közvetlenül nem mérhető, viszont mérhető a dinamikus és a statikus nyomások összegeként adódó _./össznyomás
+Az össznyomást mérni olyan nyomásmérő eszközzel lehet, amelynek érzékelője a mozgó közeggel _ néz./szembe
+A szilárd falnak ütköző részecskék sebességének várható értéke a falhoz nagyon közel _./nulla
+A _ a részecskék rendezetlen mozgásának átlagos kinetikai energiája, egy empirikus skálán mérve./statikus hőmérséklet
+A _ skalár jellegű, intenzív mennyiség, mérése a _ hőmérővel lehetséges./statikus hőmérséklet/közeggel együttmozgó
+A _ a rendezett mozgás kinetikai energiájának a mértéke, a már említett empirikus skálán./dinamikus hőmérséklet
+A dinamikus hőmérséklet csak viszonylag _ sebességek esetében jelentős./nagy áramlási
+A dinamikus hőmérséklet skalárnak tekintett, intenzív mennyiség, amely közvetlenül nem mérhető, viszont mérhető a statikus és a dinamikus hőmérséklet összegeként előálló _ (torlóponti hőmérséklet)./összhőmérséklet
+Az összhőmérséklet mérésére un. _ használatos, amely a közeget – minden mozgást rendezetlenné téve – megállítja, és a megállított közeg hőmérsékletét méri./torlóponti-hőmérő
+A _ és a hozzá illeszkedő _ azon alapul, hogy a vizsgált közeget, a fizikai teret folytonosan kitöltő kontinuumnak tekintjük. Ez a kontinuum a részecske szemlélettel ellentétben folytonos, részei végtelen kicsik és ezért viselkedése, tulajdonságai többnyire _ segítségével írhatók le./kontinuum hipotézis/Euler-féle leírás/folytonos függvények
+A nyomás _ megmutatja a nyomás-változás _ és _./gradiense/irányát/nagyságát
+A _ az eredetileg skalármennyiségből (nullad-rendű tenzor) vektort (első rendű tenzort) állít elő./gradiens
+A _ számítás a tenzorok index-számát redukálja./divergencia
+A _ vagy _ egy-indexes tenzorból két-indexes tenzort állít elő./diadikus/külső szorzat
+A nabla operátor önmagával vett skalár szorzata egy skalár operátort, a _ szolgáltatja./Laplace operátort
+A _ valamely _ (esetünkben: nehézségi, tehetetlenségi, centrifugális vagy Coriolis erőtér) elhelyezkedő _./térerősség/erőtérben/egységnyi tömegre ható erő
+Amennyiben egy erőtérnek létezik (skalár) _ (U=U(r) – skalár-vektor függvény), akkor ebből a potenciálból a _ az alábbi módon számolható: g=-gradU./potenciálja/térerősség
+A potenciál létezésének szükséges és elégséges feltétele, hogy az erőtér _ legyen./térerőssége rotációmentes 
+A _ vagy más néven _ erőterekben a potenciál a _ ellenében végzendő munkaként számítható./potenciálos/konzervatív/térerősség
+A _ abszolút értéke nem fontos, illetve nem is ismert – a számításokban csak a _ játszik szerepet./potenciál/potenciál-különbség
+_ a nehézségi, a tehetetlenségi vagy a centrifugális erőtér. Míg _ a Coriolis erőtér./Potenciálos erőtér/nem potenciálos erőtér
+Pozitív a nehézségi erőtér potenciáljának az előjele, ha _./a növekvő „z” értékhez növekvő helyzeti energia tartozik, azaz, ha a „z” tengely felfele mutat
+Gyorsuló rendszerben lép fel a _ és ennek./tehetetlenségi erőtér/térerőssége éppen ellentétes a gyorsulással
+Egy olyan polár-koordináta rendszerben, amelyben „r” tengelye a forgásponttól kifelé mutat, az egységnyi tömegre ható _: rω2./centrifugális erő
+Centrifugális erőtérben csak a _, mivel itt a koordináta tengely („r”) irányítása azonos a térerősség irányításával, mindkettő kifelé mutat./negatív előjel használata értelmes
+Centrifugális erőtér esetében a legnagyobb potenciál a _ van, mégpedig nulla, és kifelé az „r” tengely mentén csökkenő potenciálok egyre kisebb negatív számok./forgásközéppontban
+Az _ felületek mentén a potenciál állandó./ekvipotenciális
+A derivált tenzor bevezetésével a közeg részecskéinek merevtestszerű _ és a _ (hosszváltozás és szögtorzulás) írjuk le./elmozdulásait/deformációit
+A derivált tenzort egy _ és egy _ tenzor összegére bonthatjuk fel./szimmetrikus (DS)/ferdén szimmetrikus (DA)
+A _ származhat merevtestszerű _ és származhat _./konvektív gyorsulás/forgásból/deformációból
+A _ (örvényessége) a kontinuum helyi _./sebességtér rotációja/szögsebességének kétszerese
+A derivált tenzor ferdén szimmetrikus részével történő szorzás tehát azonos a _, ezért DA-t örvénytenzornak is nevezzük./szögsebességgel történő vektori szorzással
+A _, ami a derivált tenzor szimmetrikus részének főátlójában álló elemeinek összege, éppen a sebességtér adott pontban vett _ egyenlő./relatív térfogat változási sebesség/divergenciájával
+Az _ szerint egy sebességteret adunk meg, amely a teret folytonosan kitöltő kontinuum sebességét írja le: c=c(r,t)./Euler-féle szemléletmód
+Az _ a sebességmező vektorainak egy, adott pillanatban vett burkoló görbéje – az áramvonal ívelemmel (ds) tehát a sebesség vektor párhuzamos./áramvonal
+A _ egy (kijelölt) elemi folyadékrészecske útja./pályavonal
+A _ az a vonal, amely mentén, egy pillanatban a tér egy adott pontján addig áthaladt (elemi) részecskék sorakoznak. (pl. szélcsatornai jelölő füst)./nyomvonal
+Az áram-, pálya- és nyomvonal _ áramlás esetében azonos./stacionárius
+A _ áramlás olyan áramlás, ahol a _ az időben nem változik./stacionárius/sebesség
+Azokban a pontokban, ahol a sebesség többértékű, több áramvonalat is találunk. Ezeket a pontokat _ nevezzük./szinguláris pontoknak
+Szinguláris pont például egy _ vagy egy _, ahol _ sebesség és áramvonal értelmezhető./forrás/nyelő/ végtelen sok
+Az áramvonalak esetenként _ vagy _ alkothatnak./áramfelületeket/áramcsöveket
+Az _ a sebességtér rotációja./örvényesség
+A _, amint azt az elnevezése is mutatja, a folyadéktér forgásával kapcsolatos mennyiség (a pillanatnyi szögsebesség kétszerese)./rotáció
+Azokat a vonalakat, amelyek egy adott pillanatban az örvényesség burkoló görbéi, _ nevezzük – ekkor tehát az örvényesség párhuzamos az örvényvonal ívelem vektorával: rot c x ds = 0./örvényvonalnak
+Az örvényvonalakból _ és _ lehet összeállítani./örvényfelületeket/örvénycsöveket
+A térbeli változás alapján számított deriváltat idegen szóval _, az időbeli változás alapján számolt deriváltat _, a kettő összegét _, _, vagy _ gyorsulásnak nevezzük./konvektív/lokális/teljes/totális/szubsztanciális
+A _ és _ derivált rögzített _ illetve _ tekintendő, így ezek a közeggel _ (továbbá nyitott rendszerre vonatkoznak)./lokális/konvektív/helyen/időpontban/nem mozognak együtt
+A _ a közeg egy pontjára vonatkozik, vagyis _, azaz zárt rendszerre vonatkozó deriváltat jelent./teljes derivált/együttmozgó
+Lokális gyorsulás akkor keletkezik, ha a sebesség egy pontban, az _ változik./idő függvényében
+A _ tehát egy adott helyen, valamely t és t+Δt pillanatban mért sebességkülönbséggel szemléltethetjük./lokális gyorsulást
+A _ a sebesség _ adott pillanatbeli megváltozásából származik./konvektív gyorsulás/irányának vagy nagyságának
+A pályavonalhoz rendelhető az _, a _ és a _ egység-vektorból álló kísérő triéder. Ezek _ alkotnak./érintő (e)/normális (n)/binormális (b)/jobbrendszert
+A kísérő triéder által kifeszített koordináta rendszerben a sebesség _, a másik két összetevője azonosan nulla. A _ miatt csak konvektív gyorsulás létezik és a konvektív gyorsulásnak is csak érintő és normális irányú összetevője van, binormális irányban gyorsulás nincs./érintő irányú/stacioneritás (időállóság)
+A konvektív gyorsulás másik összetevője a pálya görbületétől is függő _./centripetális gyorsulás
+A transzport- vagy mérleg-egyenlet segítségével, a rendszerhatárokon átlépő áramok (pl. _, _, _, vagy _) figyelembe vételével _ is felírhatók a megmaradási elveken alapuló egyenletek./anyag/mozgásmennyiség/energia/perdület áram/nyílt rendszerekre
+Fizikai szempontból a _ a választott térfogatbeli tömegváltozást (vagy a differenciálegyenletnél az egységnyi térfogatbeli tömegváltozást) jelenti./lokális tag
+A _ pedig a ki- és belépő tömegeket határozza meg./konvektív tag
+A _ törvényének legfontosabb érvényességi feltétele, hogy az áramlásban ne legyen sem _, sem _./folytonosság/forrás/nyelő
+A _ időegységre eső teljes megváltozása – ami a _ változás összegeként írható fel – egyenlő a kiválasztott V térfogatbeli közegre ható _ eredőjével. (Impulzus tétel)/mozgásmennyiség/lokális és konvektív/külső erők
+A _ annyit változik, amennyi változást a _ előidéznek./mozgásmennyiség/külső erők
+Az Euler egyenlet, az impulzus tételhez hasonlóan a mozgásmennyiség megmaradás elvére épül, és azt fejezi ki, hogy a mozgásmennyiség időegységre eső megváltozása a _ eredőjével egyenlő./külső erők
+Az _ legfontosabb érvényességi feltétele az, hogy _ vonatkozik./Euler egyenlet/ideális folyadékra
+Az _ az áramlás két pontja között integrálva kapjuk az energia megmaradás elvére épülő Bernoulli egyenletet./Euler egyenletet
+A _ kapcsolatban két, nagyon fontos érvényességi feltételt kell kiemelni: a _ lehet és a két választott pont között nem lehet _ be- vagy elvezetés./Bernoulli egyenlettel/közeg csak ideális/energia
+_ az egységnyi tömeg _ és _ Cp(T2-T1) összege állandó és a tartály entalpiájával egyenlő./Összenyomható közegeknél/kinetikai energiájának/entalpiájának
+A _ elvére épülő alap-egyenlethez úgy jutunk el, ha a mozgásmennyiség megmaradására épülő egyenlet minden tagját balról _ szorozzuk „r”-rel./perdület megmaradás/vektoriálisan
+A _ elvére épülnek az örvénytételek./perdület megmaradás
+Egy áramlástan feladatban minden _ elvnek teljesülnie szükséges./megmaradási
+A hidrosztatika alap differenciál egyenletét az _ kaphatjuk úgy, hogy a _ és a _ is azonosan nullának választjuk./Euler egyenletből/sebességet/gyorsulást
+Hidrosztatika feladatról beszélünk, amikor az alkalmasan választott _ rendszerből nézve a közeg _./koordináta/nyugalomban van
+Ha a sebességtér _ – nullmértékű halmaztól eltekintve – azonosan nulla, akkor találhatunk olyan skalár-vektor függvényt, amelynek a _./rotációja/sebesség a gradiense
+A nullmértékű halmaz – például síkáramlás esetén – nulla területet jelent, vagyis a sebesség rotációja legfeljebb _ területű vonalakon lehet nullától különböző./nulla
+A sebesség a sebességi potenciál _ merőleges. E merőlegesség legfeljebb a _ nem teljesül./ekvipotenciális vonalaira/szinguláris pontokban
+Az _ szintvonalai az _, melyek érintői a sebesség vektorokkal párhuzamosak./áramfüggvény/áramvonalak
+A sebességi potenciál és az _függvény _ potenciállá kapcsolható össze./áram/komplex
+A _ komplex konjugáltját a _ kapjuk meg./sebesség/komplex potenciál deriválásával
+Az ekvipotenciális vonalak és az áramvonalak az „x-y” síkon _ alkotnak./ortogonális hálót
+A forrás komplex potenciáljának _, a _./valós része a sebességi potenciál/képzetes része pedig az áramfüggvény
+A szinguláris pont neve forrás, _ (Q>0) és _ (Q<0)./ha onnan kifele áramlik a közeg/nyelő, ha befele áramlik a közeg
+Az _ komplex potenciálja és a _ komplex potenciálja között a különbség a _ való szorzás. Illetve, hogy a jellemző mennyiséget „Q” helyett „Γ”-val jelöljük és _ nevezzük./örvény/forrás/képzetes egységgel/cirkulációnak
+A komplex potenciálok összenyomhatatlan közeg _ írják le./időben állandó síkáramlását
+Az örvényes áramlások olyan áramlások, melyekben az _ (a sebességtér rotációja) legalább helyenként a _ különbözik./örvényesség/zérustól
+Amikor az adott örvény esetében a _ a végtelenhez tart, miközben a felület, amelyen integrálunk, tart a nullához, akkor egy _ kapunk, amelynek Γ a _ és az _ nulla./sebességtér rotációja/örvényszálat/cirkulációja/átmérője
+Az örvény az „r”=0 helyen található és sebesség eloszlása az _ kívül lényegében azonos a potenciálos örvény sebesség eloszlásával./örvénymagon
+Az _ lényegében két részre osztható, a belső rész _, ehhez csatlakozik az az _, amelyben a viszkozitás jelentős szerepet játszik./örvénymag/merev testszerűen forog/átmeneti rész
+A valóságos örvények _ – az idő múlásával a mag sugara _, közben pedig a legnagyobb sebesség értéke _./öregszenek/növekszik/csökken
+A Thomson tétele kimondja, hogy, hogy a cirkuláció értéke – ideális, összenyomhatatlan közeg esetén – egy zárt, folyékony vonal mentén az _./időtől független
+Kelvin tételéből levonható számos következtetés közül az egyik legfontosabb az, hogy a nyugvó térből eredő áramlás _./örvénymentes, azaz potenciálos 
+Amennyiben a közeg sűrűsége _ módon változhat, akkor a _ kapjuk./barotróp/Bjerkness féle örvény-tételt
+Az örvénycső hasonló az áramcsőhöz, csak áramvonal helyett _ alkotják./örvényvonalak
+Kimondható tehát, hogy a _ – egy örvénycső két, örvényvonalakkal nem párhuzamos metszetében – azonos. (Helmholtz tétel)/cirkuláció abszolút értéke
+Az _ egyúttal _ is./örvénycsövek/áramcsövek
+Az örvényesség a _ kötődik (egy örvény azonos részecskékből áll)./részecskékhez
+Két örvényfelület metszéseként előálló örvényvonal _./azonos részecskékből áll
+A _ környezeti nyomás uralkodik./szabadsugarakban
+Az időegységre eső _ változás vektorok mindig a sebesség egyenesén fekszenek és az _ kifelé mutatnak./mozgásmennyiség/ellenőrző felületből
+Az _ felület egyszeresen összefüggő zárt felület./ellenőrző
+Az áramlástanban az _ alkalmazása általában akkor szükséges, ha a feladatban _ be- vagy elvezetést van./impulzus tétel/energia
+Minden, impulzus tétellel megoldandó feladatban _ kell választani, ki kell jelölni a _, _ kell választani./ellenőrző felületet/be- és kilépési pontokat/koordináta rendszert
+A tényleges sugár keresztmetszet (As) és a kilépő geometriai keresztmetszet (A) hányadosaként definiálható a _, amely a Borda féle kifolyónyílás esetében α=0,5./kontrakciós tényező
+A Bernoulli egyenlet ideális közeg olyan áramlására érvényes, ahol _./az áramlás két, kijelölt pontja között sem energia be- sem elvezetés nincs
+A _ – állandó sűrűségű közeg, állandó keresztmetszetű csőben történő áramlása esetén – állandó; a keresztmetszet változása esetén pedig azzal _ arányos./lokális gyorsulás/fordítottan
+A _ és _ a hajók, illetve repülőgépek és egyéb eszközök mozgatásához szükséges _ illetve _ létrehozására szolgál./hajócsavar/légcsavar/vonó-/tolóerő
+Ezek az eszközök a rajtuk átáramló közeget _ gyorsítják, amivel létrehozzák az _ mutató, úgynevezett _./hátrafelé/előre/propulziós erőt
+Az _ egy olyan tárcsa, amelynek felületét a _ vagy a _ által súrolt felület határozza meg./aktív tárcsa/hajócsavar szárnyak/légcsavar lapátok
+A tárcsa előtt _, mögötte _ van./depresszió/túlnyomás
+A tárcsa vastagsága nulla, vagyis rajta keresztül a nyomás _./ugrásszerűen növekszik meg
+Ha a környezeti nyomás az ellenőrző felületen mindenütt _, akkor a felületi integrálja _./állandó/nulla
+Hajócsavarok (légcsavarok) esetén a _ a közeli indukált sebesség _./távoli indukált sebesség/kétszerese
+A _ azt jelzi, hogy valamely erőt, adott zavartalan áramlási sebesség esetén a lehető legkisebb _ célszerű létrehozni./propulziós hatásfok/indukált sebességgel
+A hajócsavaroknál a közeg víz – ennek sűrűsége a levegőnél több, mint 800-szor nagyobb. A hajócsavaroknál tehát adott erőt _ lehet létrehozni – ezért a hajócsavarok átmérője sokkal _ lehet./jóval kisebb indukált sebességgel/kisebb
+A propulziós hatásfok egy _, a légcsavarok, hajócsavarok valóságos hatásfoka ennél csak _ lehet./alap hatásfok/rosszabb
+A hajócsavarokkal kapcsolatban még megemlítendő, hogy ezeknél a légcsavarokkal ellentétben a lapátok a teljes _ lefedik./súrolt keresztmetszetet
+Amíg a légcsavar lapátokat első közelítésben egyedülálló _ is kezelhetjük, addig a hajócsavar részletesebb vizsgálata esetén – _ számítandó./szárnyként/lapátrácsként
+A _ működése során a rajta keresztüláramló levegőtől energiát vesz el. Ezért ezt a levegőtömeget a szélkerék lassítja, eközben természetesen _ is hat./szélkerék/tengelyirányú erő
+Egy szélkerék a hozzá elméletileg érkező energiaáramból legfeljebb a _ megfelelő hányadot képes hasznosítani./Betz-féle hatásfoknak
+Szélkerekeknél _ (a ténylegesen kivett teljesítmény és a Betz hatásfokkal csökkentett teljesítmény hányadosa) és _ (a ténylegesen kivett teljesítmény és az érkező teljes energiaáram hányadosa) is szokás beszélni./relatív hatásfokról/abszolút hatásfokról
+A szélkerék lapátok _ fordulatszáma esetén a lapátok nem fedik le a teljes súrolt felületet, az érkező levegőáram egy, akár jelentős része is, _ nélkül halad át ezen a keresztmetszeten./alacsony/sebességváltozás
+Az _ a gyakorlatban megengedhető feltétel, ha az áramló közeg jellemzői emiatt csak legfeljebb néhány százalékot változnak./összenyomhatatlanság
+Az összenyomható közegek áramlásának jellemzésére esetenként a _ használjuk. Ez a szám az áramlás _ és a _ a viszonyszáma./Mach számot (Ma)/sebességének (c)/hang sebességének (a)
+_: amikor a Mach szám egynél kisebb./Szubszonikus áramlás
+_: a Mach szám értéke 1 körüli./Transszonikus áramlás
+_: amikor a Mach szám nagyobb, mint 1./Szuperszonikus áramlás
+_: amikor a Mach szám sokkal nagyobb, mint 1./Hiperszonikus áramlás
+A szubszonikus áramlásban a hullámterjedést láttató körök az áramlás irányában _ mozdulnak el./hátrafelé
+_: a hozzánk közeledő hangforrásból adott idő alatt több impulzust észlelünk, így _ lesz. A másik oldalon, a tőlünk távolodó hangforrásból adott idő alatt kevesebb impulzust észlelünk, vagyis _./Doppler hatás/a hang frekvenciája nagyobb/a hang mélyül
+Mivel a zavarforrás pontosan _ halad, ezért a nyomáshullámok előrefele nem távolodnak el, hanem egy helyen koncentrálódnak, azaz összegződnek. Ilyen módon akár igen jelentősen is megnövekedett nyomással magyarázható a hangsebesség átlépésének környékén megjelenő _./hangsebességgel/hang-gát
+A _ először _, majd _ a keresztmetszete./Laval-csőnek/csökken/nő
+_, a közeg akkor gyorsul, ha a keresztmetszet csökken (és akkor lassul, ha a keresztmetszet növekszik)./M<1
+_, a közeg akkor gyorsul, ha a keresztmetszet növekszik (és akkor lassul, ha a keresztmetszet csökken)./M>1
+_, a _ az áramlási sebesség éppen a helyi _ egyenlő, a sebesség lefutásának itt _ van./M=1/legszűkebb keresztmetszetben/hangsebességgel/inflexiós pontja
+Rakéta fúvókában ahhoz, hogy _ érjünk el vele, a keresztmetszetének _ kell, majd a _, a további gyorsulás érdekében _ kell./folytonos gyorsulást/először csökkennie/hangsebesség elérése után/növekednie
+A helyi hangsebesség a _ változásával együtt változik./hőmérséklet
+A _ alapján lehet megítélni, hogy egy áramlásban létrejön-e, létrejöhet-e a hangsebesség vagy az afeletti sebesség is. Ennek a szükséges feltétele az, hogy a _ kisebb legyen, mint a _./kritikus nyomásviszony/nyomásviszony/kritikus nyomásviszony
+A _ működésének a szükséges feltétele az, hogy a tartálynyomás a környezeti nyomáshoz viszonyítva elég _ legyen. Ennek teljesülésével kialakulhat a hangsebesség feletti áramlás./Laval-cső/magas
+A Laval-csőben kialakuló áramlásban tehát a _ jellemzői és a legnagyobb _ csak a _ és az _ függvénye./kritikus keresztmetszet/kiáramlási sebesség/tartályállapot/anyagjellemzők
+A _ a szuperszonikus áramlást 2 részre osztja, a felső rész bővülő _, itt a _. A gyorsulás _ keresztül jön létre. Az expanzió egyúttal a _ és emiatt a _ csökkenését is eredményezi. A síklap végénél a felső áramlás _ lesz, vagyis hirtelen elkezd lelassulni _ keresztül./síklap/keresztmetszetű/közeg gyorsul/gyenge expanzió hullámokon/hőmérséklet/hangsebesség/szűkülő keresztmetszetű/erős kompresszió hullámon
+A lassulás _ hullámon keresztül jön létre – egy kompresszió hullám lényegében végtelen sok, egymásra torlódott elemi hullám összessége és ezért a rajta keresztül áramló közeg entrópiája véges értékkel növekszik./kompresszió
+A felső oldalon – a sebességnövekedésnek köszönhetően – _. Az alsó oldalon, ahol a sebesség csökken, a _./csökken a nyomás/nyomás növekszik
+_ esetén a síklap mentén a felső rész és az alsó nyomás is állandó, ezért a keletkező erő a síklapra _ lesz és az eredő a síklap _ hat./Ideális közeg/merőleges/felezőpontjában
+Az áramlással párhuzamos erő összetevőt _ nevezzük. Az áramlásra merőleges összetevő pedig a _./szuperszonikus indukált ellenállásnak/felhajtóerő
+Ha akár kisebb sebességű pl. vízáramlást lefékezünk, akkor igen tekintélyes _ állhat elő./nyomáshullám
+A _ jellemző, hogy a bennük létrejövő _ a _ és a ¬_ egyenesen arányos./Newton-i folyadékokra/csúsztató feszültség/dinamikai viszkozitással/deformáció sebességgel
+A _ a nevét onnan kapta, hogy dimenziójában csak kinematikai mértékegységek szerepelnek./kinematikai viszkozitás
+A folyadékokban ébredő csúsztató feszültség – ha az egyéb tényezők azonosak – valóban _, mint a gázokban keletkező csúsztató feszültség./sokkal nagyobb
+A _ kinematikai viszkozitása a hőmérséklet növekedésével _ (gyengül a kohéziós erő)./folyadékok/csökken
+A _ kinematikai viszkozitása a hőmérséklet növekedésével _ (fokozódik a rendezetlen hőmozgás)./gázok/növekszik
+_ az olyan áramlást nevezzük, amelyben a _ mellett, további, a hőmozgáshoz hasonló (tehát _) rendezetlen mozgás is létezik./Turbulens áramlásnak/rendezetlen hőmozgás/nulla várható értékű
+A _, a rendezetlen hőmozgáshoz képest nagyságrendekkel _./turbulencia/intenzívebb
+A turbulens áramlást célszerűen a turbulens _ vizsgálhatjuk./sebességingadozások átlagolásával
+Az áramlási sebességet tehát felbonthatjuk egy _ és egy _ ingadozásra./átlagsebességre/turbulens sebesség
+A turbulens mozgás a rendezett hőmozgáshoz képest _ jár./sokkal intenzívebb részecske cserével
+A turbulens áramlásokban a _ (sokkal) intenzívebbek, mint a _ áramlásokban./transzport jelenségek/réteges
+A _ a mozgásmennyiség transzport következtében állnak elő – ezek a turbulens áramlásokban tehát sokkal _ lesznek, mint lamináris áramlásokban./csúsztató feszültségek/nagyobbak
+Kivételt jelentenek a _ áramlások, amikor az egyébként magától rétegesként kialakuló áramlás _ lesz turbulenssé./nagyon lassú/mesterségesen
+A turbulens áramlásokban tehát a turbulencia miatt _ és _ jelenik meg./nyomástöbblet/turbulens nyírófeszültség
+A nyomástól eltérően a csúsztató feszültség _ előjelű lehet./tetszőleges
+A turbulens kinematikai és dinamikai _ nem anyagjellemző, hanem az éppen kialakuló _ függvénye./viszkozitás/sebességeloszlás
+A turbulens áramlás sebességeloszlását az _ ismeretében számíthatjuk, miközben a sebességtér számításához a turbulens viszkozitás ismerete szükséges./áramlás sebességének
+Minél kevésbé turbulens, minél simább egy áramlás, annál inkább közeledik a _ érték az _. A teljesen _ áramlás esetén a _ értéke 1./„turbulencia faktor”/1- hez/turbulencia mentes/turbulencia faktor
+A _ egyenlet ugyan tartalmaz néhány megszorítást a _ egyenlethez képest, de emiatt, az átlagolt mennyiségek alkalmazása miatt, jelen pillanatban a bonyolultabb és kiterjedtebb áramlások (numerikus) számítására ezt az egyenletet alkalmazzák./Reynolds átlagolt Navier-Stokes/Navier-Stokes
+A Reynolds átlagolt Navier-Stokes egyenlet alkalmazása megköveteli valamely _ alkalmazását./turbulencia modell
+A _ állapíthatjuk meg a _ segítségével./mérési eredmények felhasználhatóságát/hasonlóság-elmélet
+Az ’i’ az egységnyi tömegre vonatkozó _, az ’ny’ az egységnyi tömegre vonatkozó, _, az ’s’ az egységnyi tömegre vonatkozó _ és végül a ’te’ _./tehetetlenségi erőt/nyomásváltozásból származó erőt/súrlódásból származó erőt/a térerősséget jelenti
+Két jelenség pontosan akkor, ha a mozgásegyenletük csak egyetlen, _ különbözik./hasonló/konstans szorzóban
+A _ egy _, ami a _ viszonyát fejezi ki./Reynolds-szám/hasonlósági kritérium/tehetetlenségi és a súrlódási erők
+Statisztikus mechanikai értelemben a Reynolds-szám a _, illetve a _ hányadosával arányos./makroszkopikus sebesség és hosszúság/mikroszkopikus sebesség és a hosszúság
+Az ’i’ tehetetlenségi és az ’ny’ nyomásváltozásból származó erőket jellemző hányados az _./Euler szám
+Az _ a tehetetlenségi és a nyomásváltozásból származó erőket jellemző hányados, amelyet _ vagy az _ számításánál alkalmaznak leginkább./Euler-szám/felhajtóerő/ellenállás tényező
+Az ’i’ tehetetlenségi és a ’te’ térerősségből származó erőket jellemző hányados a _./Froude szám
+A _ például szabad felszínű áramlások esetében fontos, ezért ezt a hasonlósági kritériumot gyakran alkalmazzák a hajók áramlástani vizsgálatában./Froude-szám
+Az összenyomhatóságra vonatkozó hasonlósági szám, a _, amit az _ és a _ viszonyszámaként definiáltunk./Mach szám/áramlási sebesség/hangsebesség
+A hasonlóság a _ teljesítésével érhető el. A gyakorlatban az összes kritérium egyidejű teljesítése nem igazán lehetséges. Ezért szokás az egyes hasonlósági számoknál azt hangsúlyozni, hogy mely problémakörben fontosak. Az elsősorban fontosnak tartott kritérium betartására kell törekedni (ált. ez a Reynolds szám) és ha mód van rá, ezután érdemes csak a többi kritériummal is foglalkozni./hasonlósági kritériumok
+A _ egy olyan, általában jól körülhatárolható áramlási zóna, ahol a _ hatása jelentős./határréteg/csúsztató feszültség
+A _ keletkezésének két, szükséges és elégséges feltétele van: egyrészt a közegnek kell, hogy legyen _ , másrészt kell legyen _ az áramló közeg és a „fal” között./csúsztató feszültség/viszkozitása/sebesség-különbség
+A _ a közeg a falnak energiát ad át, amely energiát a fallal párhuzamos áramlásra merőlegesen, főként a _ következtében létrejövő energia-áram fedez./fali réteg típusú határrétegben/részecske-transzport
+A _ az _ kicsi (mivel az csak _ alapul)./lamináris határrétegben/energia transzport/rendezetlen hőmozgáson
+A falnál, ahol az áramlási sebesség a tapadási feltétel miatt nulla, találhatunk egy _. Ezután következik a _ (gomolygó határréteg esetén). Végül a turbulens réteg egy _ keresztül megy át a „végtelen” vagy zavartalan áramlásba, ahol már csúsztatófeszültség nem ébred./lamináris alréteget/turbulens alréteg/átmeneti rétegen
+Amikor a lamináris határréteg már nem képes a szükséges energia transzportra _ válik. Ezt _ nevezzük és általában a _ számmal jellemezhetjük./turbulenssé/átmenetnek/kritikus Reynolds
+Mivel a _ nagyságrendekkel is intenzívebb lehet, mint a hőmozgás, azért itt az energiatranszport is sokkal intenzívebb./turbulens áramlás
+Amennyiben az áramlás fenntartásához a _ jelleg által szolgáltatott _ sem elegendő, akkor jön létre a _./turbulens/energia transzport/leválás
+A leválásban _ alakulnak ki./makroszkopikus örvénylések
+A _ köze a sebességekhez csak annyi, hogy a dimenziója sebesség-dimenzió./súrlódási sebesség
+A _ a sebességprofil egyenlete szerint a _ egyenlő a _./lamináris alrétegben/dimenziótlan sebesség/dimenziótlan távolsággal
+A _ a _ segítségével számíthatjuk ki a _./turbulens alrétegben/Prandtl-hipotézis/sebesség-profilt
+A határréteg _, az a távolság, amennyivel az áramlásnak a _ kellene kezdődnie ahhoz, hogy az adott koordinátánál _ mellett ugyanaz a _ haladjon át./kiszorítási vastagsága/faltól távolabb/állandó sebesség/térfogat-áram
+A _ jelent, ezért a Bernoulli egyenletet ki kell egészíteni az energia megmaradás elvének megfelelően úgy, hogy a _ hozzáadjuk annak a pontnak a jellemzőihez, ahonnan az hiányozna./súrlódás energiaelvezetést/súrlódási veszteséget
+Egy egyenes, állandó keresztmetszetű csőben, állandó sűrűségű, súrlódásos folyadék esetében a nyomás az áramlás irányában _ fog./csökkenni
+A _ (lineárisan) változik, a _, a _./csúsztató feszültség a sugárral arányosan/középvonalon nulla/falnál a legnagyobb
+A _ azt jelenti, hogy a _ kisebb, mint a _. Ez azt jelenti, hogy a _ csőben a határréteg _./hidraulikai simaság/felületi érdesség átlagos értéke (k)/határréteg vastagsága (δ)/hidraulikailag sima/elfedi az érdességet
+_ esetében a csövek mindig _./Lamináris csőáramlás/hidraulikailag simák
+_ esetén a csőfal mellett viszonylag _ alakul ki, illetve ez a határréteg az _./Turbulens áramlás/vékony határréteg/átlagsebesség növekedésével vékonyodik
+Adott átlagos édességű csőfal esetén a csőfal, az _ általában _ válik./átlagsebesség növekedésekor/hidraulikailag érdessé
+Nem kör keresztmetszetű vagy kör keresztmetszetű, de közeggel nem teljesen kitöltött csövek esetén a _ szokás bevezetni./hidraulikai átmérőt
+A _ az a kerület-rész, amelyen a folyadék _ lényeges./nedvesített kerület/súrlódása
+A csővezetékekben előfordulnak hirtelen keresztmetszet növekedések. Ezekben _./nyomásveszteség alakul ki 
+A _ azon alakját, amikor a kilépő keresztmetszet (gyakorlatilag) végtelen, _ nevezzük. Egyébként azt jelzi, hogy az a mozgási energia, amit a közeg magával visz, a kilépéskor elvész./Borda-Carnot veszteség/kilépési veszteségnek
+Rövid elemek _ értéke _ határozható meg./veszteségtényezőjének/mérésből, kézikönyvekből, táblázatokból
+A _ egy egyszerű_ , a feladata az, hogy a közeg _ révén a _./diffúzor/áramlástani gép/kinetikai energiájának csökkentése/statikus nyomását növelje
+A diffúzoroknál általában létezik egy _. Ha ennél a kúposságnál jobban tágul a diffúzor, akkor a fala mentén növekvő nyomás ellenében áramló közeg a _. A leválással járó _ megnöveli a veszteséget./legjobb kúposság/falakról leválik/örvénylés
+Amennyiben a diffúzor kúpossága túl _, vagyis kisebb, mint a leválás elkerüléséhez szükséges kúposság, akkor a _ rontják a diffúzor _./kicsi/súrlódási veszteségek/hatásfokát
+A _ olyan áramlás, amikor egy testet elvileg _ vesz körül és vagy a folyadék, vagy a test mozog, esetleg mindkettő _./testek körüli áramlás/végtelen folyadéktér/mozog
+A testek lehetnek _ és _./áramvonalasak/tompák (nem áramvonalasak)
+Az áramvonalasság relatív, azaz az áramvonalas tulajdonság függ a _./megfúvás irányától 
+A valóságos áramlásban kialakuló _ lényegesen különbözik az ideális közeg esetén kialakuló nyomástényező eloszlástól./nyomástényező eloszlás
+A valóságos közeg a hengert nem tudja tökéletesen körüláramolni, a henger mögött _ alakul ki./örvényes leválási zóna
+A henger mögötti zónában kialakuló örvényeket _ nevezik./Kármán-féle örvénysornak
+Valóságos közegben, amikor az áramlási sebesség, azaz a _ kicsi, csak _ alakul ki a henger körül. Ez a határréteg azonban csak _ képes, ezért hamar _ (80° körülfogási szög környékén). A fennmaradó ív mentén pedig _ áll elő. Re<ReKR/Reynolds szám/lamináris határréteg/kis energiatranszportra/leválik/levált, örvényes zóna
+A _ esetén (nagyobb áramlási sebesség), _ is létrejön. A turbulens határréteg jóval _ alkalmas, ezért csak később (120°-os körülfogási szög környékén) válik le. Ez az eset közelebb esik az _./kritikusnál nagyobb Reynolds szám/a lamináris határréteg után a turbulens/nagyobb energia transzportra/ideálishoz
+A henger (gömb) _ a _ hirtelen _./ellenállása/kritikus Reynolds szám elérésekor/lecsökken
+A testre ható eredő erő két egymásra merőleges komponensre bontható, az egyik a zavartalan _, a másik az arra merőleges _./áramlás irányába eső ellenállás-erő/felhajtóerő
+Az _ mérés alapján meghatározható. Megmérjük a vizsgált testen keletkező _, majd ezt az erőt elosztjuk a _ és a _./ellenállás tényező ce/ellenállás erőt/zavartalan áramlás sebességével számított dinamikai nyomás/test, áramlásra merőleges, legnagyobb keresztmetszeti felületének (AM) szorzatával
+A mért _ szám annál kisebb, minél _ a vizsgált áramlás, így a turbulensség növekedésével a _ értéke is _./kritikus Reynolds/turbulensebb/turbulencia faktor ( tf )/növekszik
+A tompa testek ellentéte az _ test./áramvonalas
+A tompa testek körüli áramlásban jellemzően _ jön létre, mely mérséklet sebességű áramlásban döntően az _. Nagysebességű áramlásban megjelenik a _ is. Ezek az ellenállások alapvetően a _ miatt állnak elő, a csúsztató feszültség szerepe kicsi./légellenállás/alakellenállás/hullámellenállás/nyomáskülönbség
+Az _ testek esetében az _ általában kicsi, e testek ellenállásának döntő része – mérsékelt sebességű áramlásban – a _./áramvonalas/alakellenállás/súrlódási ellenállás
+A _ legfontosabb tulajdonsága az, hogy az _ képest nagy, az _ hoz létre./szárnyprofil/áramlás irányába eső ellenálláshoz/áramlásra merőleges felhajtó erőt
+Mérsékelt sebességű szárnyprofil esetében az _ az _, un. _ szokás számolni./ellenállástényező/áramlás által súrolt felülettel arányos/vetületi felülettel (As)
+A _ az ellenálláshoz hasonló módon definiáljuk. Az _ el kell osztani a _./felhajtóerő tényezőt ( cf )/áramlásra merőleges irányú felhajtóerőt/dinamikus nyomás és a súrolt felület szorzatával
+A szárnyprofil elsősorban a körülötte áramló levegő _ változtatja meg. Az irányváltozás, az áramvonalak görbületén keresztül _ vezet. Így alakul ki a _, illetve a _./sebességének irányát/nyomásváltozáshoz/vázvonal alatti nyomásnövekedés/vázvonal feletti nyomáscsökkenés
+Azt mondhatjuk, hogy a nyomás a vázvonalra merőlegesen majdnem mindig _ – kivéve magát a vázvonalat, ahol ugrásszerűen csökken./szigorúan monoton nő
+Az _ és egy _ sebességterének összege olyan _ vezet, ahol a profilhoz közeledve megkapjuk a _. Illetve a profiltól távolodva a sebesség a zavartalan áramlás sebességéhez tart, vagyis ekkor a nyomás értéke is tart a környezeti nyomás értékéhez. (felületi örvény-panel módszer)/alapáramlás/örvény/eredő sebességtérre/felső oldali sebességnövekedést és az alsó oldali sebességcsökkenést
+A kilépő sebesség ugyan közel érintőleges, azonban a felső oldalról érkező közeg _, mint az alsó oldalról érkezőé. Vagyis a profil nyomában egy un. _ alakul ki./sebessége nagyobb/nyíró-réteg
+A profil mögötti áramvonal (nyom) tovább görbül lefelé. Így alakul ki az a helyzet, hogy a vázvonaltól távolabbi _ kb. _ akkora lesz, mint a közvetlenül a vázvonaltól adódó indukált sebesség./indukált sebesség/kétszer
+A _ legfontosabb tulajdonságaként azt jelöljük meg, hogy ezek _ képesek létrehozni./profilok/kis ellenállás árán nagy felhajtóerőt
+A _ az _ és a _ hányadosa. A siklószám _ az értéke./siklószám (ε)/ellenállási tényező/felhajtóerő tényező/annál jobb, minél kisebb
+A siklószám a nevét onnan kapta, hogy megmutatja, _ milyen távolságra siklik egy vitorlázó repülőgép./egységnyi magasságból
+Az aerodinamikai jóság a _ és az _, azaz a _./felhajtóerő tényező/ellenállás tényező hányadosa/siklószám reciproka
+A felhajtóerő tényező sokáig az _, majd amikor az értéke _ lesz és az áramlás már nem tudja követni a profil kontúrját, akkor egy maximális érték után _ (leválás kezdődik)./állásszöggel arányosan változik/túl nagy/erősen csökkenni kezd
+A _ éppen a _ kapjuk./maximális felhajtóerő tényezőt/kritikusnak nevezett állásszögnél
+Az _ van egy minimális értéke, ettől balra és jobbra egyaránt növekszik./ellenállás tényezőnek
+Nagy Reynolds számok esetén a _, kis Reynolds számok esetén a _, illetve az _ alkalmazása vezet kisebb, tehát jobb siklószámhoz./profilok/sík/ívelt lapok
+A csővezetékek, amelyek _, _, _, és egyéb elemekből állítható össze különféle (folyékony és gáznemű) folyadékok szállítására szolgálnak./egyenes csövekből/csőkönyökökből/elzáró szerkezetekből
+Csővezeték _, vagy valamely _./szállíthat valamely magasságra (H)/nyomáskülönbség ellenében (Δp)
+A szállítás a _, vagy _ valamint _ tevődik össze./statikus szállító magasságból/nyomáskülönbségből/veszteségből
+A veszteségek _./a térfogatáram négyzetével arányosak
+A csővezetékek áramlási viszonyait a _ és a _ alapján írhatók le. E törvények általánosan az un. _ és  _ segítségével fogalmazhatók meg./csomóponti/hurok-törvény/illeszkedési/hurok-mátrix
+Az örvénygépek elnevezésben az „örvény” nem a forgáson, hanem a gépben található _, másképpen _ alapul./(szárny) lapát körül kialakuló örvényen/cirkuláción
+Az _ többnyire egy _ és a járókereket forgató _ állnak./örvénygépek/házból (pl. csigaház), járókerékből/motorból
+A radiális azt jelenti, hogy a közeg a járókeréken alapvetően _ halad át./sugárirányban
+A lapátozást illetően használjuk a _, a _, és az _ jelzőt./„hátrahajló”/„radiális”/„előrehajló”
+Az _ vektori összege./abszolút sebesség (c) a szállító sebesség (u) és a relatív sebesség (w)
+Az _ egy, a hagyományokon alapuló elnevezés, erő és munkagépekre egyaránt alkalmazható./„Euler turbina egyenlet”
+Az _ azt jelenti, hogy ebben az egyenletben _ nem veszünk figyelembe./elméleti/veszteségeket
+A _ pedig azt jelenti, hogy a _ végtelen, azaz a perdület a kerület mentén mindenütt az állandó, elméleti érték./végtelen/lapátok száma
+Örvénygépek működésére jellemző a _./reakciófok
+A _ a _ és a _ származó szállító magasságok összegeként adódik./teljes szállító magasság/nyomásból/mozgási energiaváltozásból
+A radiális járókerekek vizsgálatában az alábbi _ szokás bevezetni./áttételi számot
+_ esetén az _./Hátrahajló lapátozás/áttételi szám kisebb, mint 1
+_ esetén az _./Radiális lapátozás/áttételi szám egyenlő 1-gyel
+_ esetén az _./Előrehajló lapátozás/áttételi szám nagyobb, mint 1
+Előrehajló lapátozás esetén a kilépő abszolút sebesség _vesz fel, ilyenkor a kilépésnél nagy a _./nagy értéket/kinetikai energia
+Az elméleti végtelen szállító magasság a sebességi számmal _ nő./arányosan
+A _ növekedéséből számított szállító magasság rész _./kinetikai energia/négyzetesen növekszik
+Radiális lapátozásnál a két szállítómagasság rész _, a reakciófok pedig éppen _./egyenlő/0,5
+Az _ esetében a _ növekedéséből számított szállító magasság rész kerül túlsúlyba, és ennek megfelelően a reakció fok csökken. (0,5>r>0)/előrehajló lapátok/kinetikai energia
+A _ viszonylag _ képes előállítani, de ezt viszonylag _ teszi. Ezek stabil, nagyméretű, jó hatásfokú berendezések./hátrahajló lapátozás/kis szállítómagasságot/jó hatásfokkal
+Az _ lapátozás esetében viszont éppen viszonylag _ kapunk, de viszonylag _. Az ilyen lapátozással ellátott gépek lehetnek azok a mobil gépek, ahol elsősorban a nagy teljesítmény és a kis méret a fontos, a hatásfok nem annyira lényeges. Pl. tűzoltó szivattyú./előrehajló/nagy szállítómagasságot/rossz hatásfokkal
+_ egy, adott _ tartozó _ diagramot nevezzük./Jelleggörbének/fordulatszámhoz/szállítómagasság-térfogatáram
+Az _ le kell vonni a véges _. Ezt követően levonandó a _ is. Végül levonandó az _: ennek értéke a tervezési pontban nulla; ennél kisebb vagy nagyobb térfogatáramoknál pedig, a munkaponttól távolodva az értéke nő./elméleti szállító magasságból/lapátszám miatti perdület-apadási veszteséget/térfogatáram négyzetével arányos súrlódási veszteség/ütközési veszteség
+Csővezeték és radiális átömlésű lapátozással ellátott örvénygép jelleggörbéinek _ van. A bal oldali _, a jobb oldali _./két metszéspontja (munkapontja)/labilis/stabil
+A _ munkapontból, ha a munkapont _ tolódik el, akkor rendelkezésre álló szállítómagasság nagyobb lesz a szükségesnél, tehát a térfogatáram tovább növekszik. Ha a munkapont _ tolódik el, akkor káros esetben hidraulikus lengések is felléphetnek./labilis/felfelé/lefelé
+A _ munkapontból _ elmozduló állapot esetén a térfogatáram visszacsökken a stabilba, míg _ elmozdulás esetén visszaindul felfelé./stabil/felfelé/lefelé

@@ -3,8 +3,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     tools:context="com.molnargy.aramtan.MainActivity">
     <item
-        android:id="@+id/action_settings"
+        android:id="@+id/restart"
         android:orderInCategory="100"
-        android:title="@string/action_settings"
-        app:showAsAction="never" />
+        android:title="Újrakezdés!"
+        app:showAsAction="never"/>
 </menu>

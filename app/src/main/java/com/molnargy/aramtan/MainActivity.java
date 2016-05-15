@@ -5,7 +5,6 @@ import android.content.Context;
 import android.content.DialogInterface;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
-import android.text.Html;
 import android.util.Log;
 import android.view.MotionEvent;
 import android.view.View;
@@ -16,7 +15,6 @@ import android.widget.TextView;
 
 import java.io.BufferedReader;
 import java.io.FileInputStream;
-import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
 import java.io.InputStream;
 import java.io.InputStreamReader;
@@ -33,8 +31,6 @@ public class MainActivity extends AppCompatActivity {
     private int progress;
     private Vector<Integer> fiftiesProgress;
     private Vector<Integer> tensProgress;
-    private int fiftiesMin;
-    private int fiftiesMax;
     private int tensMin;
     private int tensMax;
     private boolean questionMode;
@@ -46,6 +42,8 @@ public class MainActivity extends AppCompatActivity {
 
     private TextView onesTextView;
     private WebView webView;
+
+    private boolean repeat;
 
 
     @Override
@@ -59,7 +57,7 @@ public class MainActivity extends AppCompatActivity {
 
         String line;
         String[] workArray;
-        String[] answers;
+        String[] answers = null;
         String question;
         this.questionContainer = new ArrayList<Question>();
 
@@ -81,7 +79,8 @@ public class MainActivity extends AppCompatActivity {
             while((line = buffReader.readLine())!=null){
                 workArray = line.split("/");
                 question = workArray[0];
-                answers = Arrays.copyOfRange(workArray, 1, workArray.length);
+                answers = new String[workArray.length-1];
+                System.arraycopy(workArray, 1, answers, 0, workArray.length-1);
                 questionContainer.add(new Question(question,answers));
                 this.questionCount++;
             }
@@ -91,31 +90,38 @@ public class MainActivity extends AppCompatActivity {
 
         //Load the progress
         this.progress = loadProgress(); //this sets it to 0 if nothing was saved.
-        setCounters();
 
         //Let's get the current 10, and 50 bounds.
-        this.setBounds();
-
-        //Let's display the first question.
-        this.displayQuestion();
+        if(this.progress % 50 == 0 && this.progress != 0){
+            //in this case we gonna set the bounds according to this.
+            setBounds(progress-50, 50);
+        }else {
+            this.setBounds(progress,10);
+        }
 
         //So we are in question mode.
         this.questionMode = true;
+
+        //Let's display the first question.
+        this.displayQuestion();
 
         //Set the counters
         this.setCounters();
 
         //set listener on webView
         final MainActivity that = this;
-        this.webView.setOnTouchListener(new View.OnTouchListener(){
+        this.webView.setOnTouchListener(new View.OnTouchListener() {
             @Override
-            public boolean onTouch(View v, MotionEvent event){
-                that.showAnswer(v);
+            public boolean onTouch(View v, MotionEvent event) {
+                if(event.getAction() == MotionEvent.ACTION_UP) {
+                    that.showAnswer(v);
+                }
                 return false;
             }
 
         });
 
+        this.repeat = false;
     }
 
     private void displayQuestion(){
@@ -124,42 +130,35 @@ public class MainActivity extends AppCompatActivity {
                 this.tensProgress.size()
         );
 
-        this.webView.loadData(
+        this.webView.clearCache(true);
+        this.webView.clearHistory();
+        this.webView.loadDataWithBaseURL(
+                null,
                 this.questionContainer.get(
                         this.tensProgress.get(
                                 this.prevTenQuestion
                         )
                 ).getQuestion(),
                 "text/html; charset=UTF-8",
+                null,
                 null
         );
         this.questionMode = true;
     }
 
-    private void setBounds(){
-        this.tensMin = this.progress;
-        if((tensMin+9) > (this.questionCount-1)){
+    private void setBounds(int start, int noOfQuestions){
+
+        this.tensMin = start;
+        if((tensMin+noOfQuestions-1) > (this.questionCount-1)){
             this.tensMax = this.questionCount-1;
         }else{
-            this.tensMax = this.tensMin+9;
-        }
-
-        this.fiftiesMin = (int)Math.ceil(this.tensMin/5);
-        if((fiftiesMin+49) > (this.questionCount-1)){
-            this.fiftiesMax = this.questionCount-1;
-        }else{
-            this.fiftiesMax = this.fiftiesMin+9;
+            this.tensMax = this.tensMin+noOfQuestions-1;
         }
 
         //now let's populate the corresponding vectors.
         this.tensProgress.clear();
         for(int i=tensMin;i<=tensMax;i++){
             this.tensProgress.add(i);
-        }
-
-        this.fiftiesProgress.clear();
-        for(int i=fiftiesMin;i<=fiftiesMax;i++){
-            this.fiftiesProgress.add(i);
         }
 
     }
@@ -173,18 +172,19 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private int loadProgress(){
+        int progressVal = 0;
         try {
             FileInputStream fis = openFileInput("progress");
             ObjectInputStream ois = new ObjectInputStream(fis);
-            int progress = (int)ois.readObject();
-            ois.close();
-            return progress;
-        }catch (FileNotFoundException e){
-            return 0;
+            progressVal = (Integer)ois.readObject();
+            //ois.close();
+            return progressVal;
         }catch (Exception e){
             Log.e("loadProgress",e.getMessage());
-            return 0;
+            //the above line is simply skipped somehow...
+            //but hey...it's smartphone stuff, so it's ugly and wrong and shit, so it's all right.
         }
+        return progressVal;
     }
 
     private void saveProgress(){
@@ -215,11 +215,25 @@ public class MainActivity extends AppCompatActivity {
                 if (this.progress + 10 >= this.questionCount) {
                     this.showAlertDialog();
                 }else {
-                    progress += 10;
-                    this.setBounds();
+                    //when we first get there, we are over 10 questions, and progress == 0.
+                    //thus when we are over 50 questions, the progress is 40.
+                    this.progress += 10;
+                    if(this.progress % 50 ==0 && !this.repeat){
+                        this.repeat = true;
+                        //in this case we gonna set the bounds according to this.
+                        setBounds(this.progress-50, 50);
+                    }else if(this.repeat){
+                        //this means that we have just completed a 50 cycle
+                        this.repeat=false;
+                        this.progress-=10;
+                        this.setBounds(this.progress,10);
+                    }else {
+                        this.setBounds(this.progress,10);
+                    }
                     this.displayQuestion();
                     this.setCounters();
                 }
+                saveProgress();
             }else {
                 this.displayQuestion();
                 this.setCounters();
@@ -237,7 +251,7 @@ public class MainActivity extends AppCompatActivity {
                 new DialogInterface.OnClickListener() {
                     public void onClick(DialogInterface dialog, int which) {
                         that.progress = 0;
-                        that.setBounds();
+                        that.setBounds(0,10);
                         that.displayQuestion();
                         that.questionMode = true;
                         that.setCounters();
@@ -248,27 +262,37 @@ public class MainActivity extends AppCompatActivity {
         alertDialog.show();
     }
 
+    private void resetProgress(){
+        this.progress=0;
+        this.setBounds(0,10);
+        this.setCounters();
+        this.repeat=false;
+        this.saveProgress();
+        this.displayQuestion();
+    }
+
     public void showAnswer(View view){
 
-        String asd = this.questionContainer.get(
-                this.tensProgress.get(
-                        this.prevTenQuestion
-                )
-        ).getAnswer();
-
         if(this.questionMode) {
-            this.webView.loadData(
-                asd,
-                "text/html; charset=UTF-8",
-                null
+            this.webView.clearCache(true);
+            this.webView.clearHistory();
+            this.webView.loadDataWithBaseURL(
+                    null,
+                    this.questionContainer.get(
+                            this.tensProgress.get(
+                                    this.prevTenQuestion
+                            )
+                    ).getAnswer(),
+                    "text/html; charset=UTF-8",
+                    null,
+                    null
             );
         }
-        this.webView.reload(); //I have no idea.
         this.questionMode=false;
     }
 
     @Override
-    public boolean onCreateOptionsMenu(Menu menu) {
+    public boolean onCreateOptionsMenu(Menu menu){
         // Inflate the menu; this adds items to the action bar if it is present.
         getMenuInflater().inflate(R.menu.menu_main, menu);
         return true;
@@ -282,7 +306,10 @@ public class MainActivity extends AppCompatActivity {
         int id = item.getItemId();
 
         //noinspection SimplifiableIfStatement
-        if (id == R.id.action_settings) {
+        if (id == R.id.restart) {
+
+            this.resetProgress();
+
             return true;
         }
 
